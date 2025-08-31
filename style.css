@@ -1,0 +1,30 @@
+#taskInputArea {
+  display: flex;
+  justify-content: center;
+  padding-top: 4rem;
+}
+
+.inputbox {
+  width: 40%;
+  text-align: center;
+  font-weight: 600;
+  height: 3rem;
+}
+
+.table-custom table {
+  width: 80%;
+  margin: auto;
+  margin-top: 4rem !important;
+  text-align: center;
+  table-layout: fixed !important;
+}
+
+.expand-text {
+  cursor: pointer; /* To indicate the text is clickable */
+}
+
+.expand-text.expanded {
+  white-space: normal !important;
+  text-overflow: unset !important;
+  overflow: visible !important;
+}

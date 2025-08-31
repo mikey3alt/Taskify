@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./asset/Taskify.png" />
+    <title>TASKIFY APP</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid justify-content-center">
+        <a class="navbar-brand" href="#">
+          <img src="./asset/Taskify.png" width="80" height="80" alt="Taskify" />
+        </a>
+        <h2>TASKIFY</h2>
+      </div>
+    </nav>
+
+    <!-- Input Area -->
+    <div id="taskInputArea">
+      <input
+        type="text"
+        placeholder="Please Enter Your Tasks"
+        class="me-3 inputbox"
+      />
+      <button type="button" class="btn btn-primary fw-semibold">
+        Add Task
+      </button>
+    </div>
+
+    <!-- task table -->
+    <div class="table-custom">
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">Task Name</th>
+            <th scope="col" class="table-action-buttons">Take Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="table-note-display">
+              <div class="expand-text text-truncate">
+                "But I must explain to you how all this mistaken idea of
+                denouncing pleasure and praising pain was born and I will give
+                you a complete account of the system, and expound the actual
+                teachings of the great explorer of the truth, the master-builder
+                of human happiness. No one rejects, dislikes, or avoids pleasure
+                itself, because it is pleasure, but because those who do not
+                know how to pursue pleasure rationally encounter consequences
+                that are extremely painful. Nor again is there anyone who loves
+                or pursues or desires to obtain pain of itself, because it is
+                pain, but because occasionally circumstances occur in which toil
+                and pain can procure him some great pleasure. To take a trivial
+                example, which of us ever undertakes laborious physical
+                exercise, except to obtain some advantage from it? But who has
+                any right to find fault with a man who chooses to enjoy a
+                pleasure that has no annoying consequences, or one who avoids a
+                pain that produces no resultant pleasure?"
+              </div>
+            </td>
+            <td class="table-action-buttons">
+              <button type="button" class="btn btn-success">
+                <i class="bi bi-check2-circle"></i>
+              </button>
+              <button type="button" class="btn btn-warning">
+                <i class="bi bi-pencil-fill"></i>
+              </button>
+              <button type="button" class="btn btn-danger">
+                <i class="bi bi-trash3-fill"></i>
+              </button>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="table-note-display">
+              <div class="expand-text text-truncate">
+                "But I must explain to you how all this mistaken idea of
+                denouncing pleasure and praising pain was born and I will give
+                you a complete account of the system, and expound the actual
+                teachings of the great explorer of the truth, the master-builder
+                of human happiness. No one rejects, dislikes, or avoids pleasure
+                itself, because it is pleasure, but because those who do not
+                know how to pursue pleasure rationally encounter consequences
+                that are extremely painful. Nor again is there anyone who loves
+                or pursues or desires to obtain pain of itself, because it is
+                pain, but because occasionally circumstances occur in which toil
+                and pain can procure him some great pleasure. To take a trivial
+                example, which of us ever undertakes laborious physical
+                exercise, except to obtain some advantage from it? But who has
+                any right to find fault with a man who chooses to enjoy a
+                pleasure that has no annoying consequences, or one who avoids a
+                pain that produces no resultant pleasure?"
+              </div>
+            </td>
+            <td class="table-action-buttons">
+              <button type="button" class="btn btn-success">
+                <i class="bi bi-check2-circle"></i>
+              </button>
+              <button type="button" class="btn btn-warning">
+                <i class="bi bi-pencil-fill"></i>
+              </button>
+              <button type="button" class="btn btn-danger">
+                <i class="bi bi-trash3-fill"></i>
+              </button>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="table-note-display">
+              <div class="expand-text text-truncate">
+                "But I must explain to you how all this mistaken idea of
+                denouncing pleasure and praising pain was born and I will give
+                you a complete account of the system, and expound the actual
+                teachings of the great explorer of the truth, the master-builder
+                of human happiness. No one rejects, dislikes, or avoids pleasure
+                itself, because it is pleasure, but because those who do not
+                know how to pursue pleasure rationally encounter consequences
+                that are extremely painful. Nor again is there anyone who loves
+                or pursues or desires to obtain pain of itself, because it is
+                pain, but because occasionally circumstances occur in which toil
+                and pain can procure him some great pleasure. To take a trivial
+                example, which of us ever undertakes laborious physical
+                exercise, except to obtain some advantage from it? But who has
+                any right to find fault with a man who chooses to enjoy a
+                pleasure that has no annoying consequences, or one who avoids a
+                pain that produces no resultant pleasure?"
+              </div>
+            </td>
+            <td class="table-action-buttons">
+              <button type="button" class="btn btn-success">
+                <i class="bi bi-check2-circle"></i>
+              </button>
+              <button type="button" class="btn btn-warning">
+                <i class="bi bi-pencil-fill"></i>
+              </button>
+              <button type="button" class="btn btn-danger">
+                <i class="bi bi-trash3-fill"></i>
+              </button>
+            </td>
+          </tr>
+
+
+          <tr>
+            <td class="table-note-display">
+              <div class="expand-text text-truncate">
+                "But I must explain to you how all this mistaken idea of
+                denouncing pleasure and praising pain was born and I will give
+                you a complete account of the system, and expound the actual
+                teachings of the great explorer of the truth, the master-builder
+                of human happiness. No one rejects, dislikes, or avoids pleasure
+                itself, because it is pleasure, but because those who do not
+                know how to pursue pleasure rationally encounter consequences
+                that are extremely painful. Nor again is there anyone who loves
+                or pursues or desires to obtain pain of itself, because it is
+                pain, but because occasionally circumstances occur in which toil
+                and pain can procure him some great pleasure. To take a trivial
+                example, which of us ever undertakes laborious physical
+                exercise, except to obtain some advantage from it? But who has
+                any right to find fault with a man who chooses to enjoy a
+                pleasure that has no annoying consequences, or one who avoids a
+                pain that produces no resultant pleasure?"
+              </div>
+            </td>
+            <td class="table-action-buttons">
+              <button type="button" class="btn btn-success">
+                <i class="bi bi-check2-circle"></i>
+              </button>
+              <button type="button" class="btn btn-warning">
+                <i class="bi bi-pencil-fill"></i>
+              </button>
+              <button type="button" class="btn btn-danger">
+                <i class="bi bi-trash3-fill"></i>
+              </button>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="table-note-display">
+              <div class="expand-text text-truncate">
+                "But I must explain to you how all this mistaken idea of
+                denouncing pleasure and praising pain was born and I will give
+                you a complete account of the system, and expound the actual
+                teachings of the great explorer of the truth, the master-builder
+                of human happiness. No one rejects, dislikes, or avoids pleasure
+                itself, because it is pleasure, but because those who do not
+                know how to pursue pleasure rationally encounter consequences
+                that are extremely painful. Nor again is there anyone who loves
+                or pursues or desires to obtain pain of itself, because it is
+                pain, but because occasionally circumstances occur in which toil
+                and pain can procure him some great pleasure. To take a trivial
+                example, which of us ever undertakes laborious physical
+                exercise, except to obtain some advantage from it? But who has
+                any right to find fault with a man who chooses to enjoy a
+                pleasure that has no annoying consequences, or one who avoids a
+                pain that produces no resultant pleasure?"
+              </div>
+            </td>
+            <td class="table-action-buttons">
+              <button type="button" class="btn btn-success">
+                <i class="bi bi-check2-circle"></i>
+              </button>
+              <button type="button" class="btn btn-warning">
+                <i class="bi bi-pencil-fill"></i>
+              </button>
+              <button type="button" class="btn btn-danger">
+                <i class="bi bi-trash3-fill"></i>
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <script src="./script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
